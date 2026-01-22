@@ -33,7 +33,7 @@ class VideoUpscaler:
         sr.setModel("espcn", 2)  # Set the model name and scale factor
         return sr
 
-    def upscale_video(self, input_path, output_path, target_height=1080):
+    def upscale_video(self, input_path, output_path, target_height=2160):
         """
         Upscale a video to the target resolution
         Args:
